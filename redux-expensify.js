@@ -26,13 +26,6 @@ const removeExpense = ({ id } = {}) => ({
   id
 });
 
-/* const removeExpense = ({id}={}) => ({
-  type: 'REMOVE_EXPENSE',
-  expenses: {
-    id
-  }
-}) мое решение */
-
 // EDIT_EXPENSE
 const editExpense = (id, updates) => ({
   type: 'EDIT_EXPENSE',
@@ -81,7 +74,6 @@ const expensesReducer = (state = expensesReducerDefaultState, action) => {
       ];
     case 'REMOVE_EXPENSE':
       return state.filter(({ id }) => id !== action.id);
-      //return  state.filter(state => state.id !== action.expenses.id) мое решение
     case 'EDIT_EXPENSE':
       return state.map((expense) => {
         if (expense.id === action.id) {
