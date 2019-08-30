@@ -4,7 +4,8 @@ const filtersReducerDefaultState = {
   text: '',
   sortBy: 'date',
   startDate: undefined,
-  endDate: undefined
+  endDate: undefined 
+  //2147483636
 };
 
 export default (state = filtersReducerDefaultState, action) => {
