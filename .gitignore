@@ -1,0 +1,8 @@
+public/scripts/app.js
+public/bundle.js
+node_modules
+package-lock.json
+git
+public/styles.css
+public/styles.css.map
+public/bundle.js.map 
