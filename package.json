@@ -10,6 +10,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "express": "^4.17.1",
+    "firebase": "^6.5.0",
     "live-server": "^1.2.1",
     "normalize.css": "^8.0.1",
     "numeral": "^2.0.6",
