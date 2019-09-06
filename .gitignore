@@ -5,4 +5,5 @@ package-lock.json
 git
 public/styles.css
 public/styles.css.map
-public/bundle.js.map 
+public/bundle.js.map
+env.* 
