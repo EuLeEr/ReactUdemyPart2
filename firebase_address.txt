@@ -1,0 +1,1 @@
+https://console.firebase.google.com/project/expensify-943e8/database/expensify-943e8/rules?pli=1
